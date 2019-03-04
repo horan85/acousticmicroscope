@@ -2,9 +2,9 @@
 
 # Deep Learning-Based Super-Resolution Applied to Acoustic Microscopy
 
-**A github repository for enhancing acoustic microscopy images**
+**A github repository for acoustic microscopy image resolution enhancement**
 
-In this repository You can find our code which impelments a superroslution neural network.
+In this repository You can find our code which implements a superresolution neural network.
 
 ### Prerequisites-Installing
 
@@ -13,17 +13,17 @@ To run our code You need to install [Python](https://www.python.org/)  (*v3.5*) 
 ### Running our code
  Our training script was implemented as a single file, all You have to do to train your models on your own data is to change the data loading part (marked as *#load the data from numpy*) and run the script.
  The implementation of the U-NET based network can be found in  [unet_train.py](https://github.com/horan85/acousticmicroscope/blob/master/unet_train.py)
- and the infernce based on a previously trained network can be found in  [unet_test.py](https://github.com/horan85/acousticmicroscope/blob/master/unet_test.py).
+ and the inference based on a previously trained network can be found in  [unet_test.py](https://github.com/horan85/acousticmicroscope/blob/master/unet_test.py).
 
-The training script contains running time data augmentation on the samples and this way it was able to generate a reasonably well working network using only a limited amount of data.
+The training script contains running time data augmentation on the samples and this way it is able to train a network using only a limited amount of data, while providing promising results on the test set.
 
 ## Example
-An example image showing the input and output image is displayed for qulaitative evaluation:
+An example image showing the input and output image is displayed for qualitative evaluation:
 
 ## Authors
-**Akos Makra
+**Ákos Makra
 Wolfgang Bost
+Imre Kalló
+András Horváth
 Marc Fournelle
-Imre Kallo
-Andras Horvath
-Miklos Gyongy** 
+Miklós Gyöngy** 
