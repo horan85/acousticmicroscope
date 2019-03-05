@@ -19,7 +19,7 @@ The training script contains running time data augmentation on the samples and t
 
 ## Example
 An example image showing the input and output image is displayed for qualitative evaluation:
-
+![alt text](https://github.com/horan85/acousticmicroscope/raw/master/samples.png)
 ## Authors
 **Ákos Makra
 Wolfgang Bost
